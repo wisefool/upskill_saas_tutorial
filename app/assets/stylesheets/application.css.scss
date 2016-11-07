@@ -22,18 +22,18 @@ h1, h2, h3 {
   color: #fff;
 }
 
-body {
+.navbar, .home-callout {
   background: #4b6cb7; /* fallback for old browsers */
   background: -webkit-linear-gradient( to right, #4b6cb7 , #182848); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient( to right, #4b6cb7 , #182848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .navbar {
-  background: none;
   border: none;
   border-radius: 0;
-  
-  a {
-    color: #fff;
-  }
+}
+
+.home-callout {
+  margin-top: -20px;
+  padding: 50px 0 100px;
 }
