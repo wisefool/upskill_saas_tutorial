@@ -61,13 +61,21 @@ h1, h2, h3 {
 }
 
 .navbar-default .navbar-toggle {
-  border: 2px solid white;
+  border: 1px solid white;
   
   .icon-bar {
     background-color: #fff;
   }
+  
+  &:hover, &:focus {
+    background: rgba(10,2,32,.6);
+  }
+  
 }
 
+.navbar-default .navbar-collapse {
+  border: none;
+}
 
 
 .home-callout {
